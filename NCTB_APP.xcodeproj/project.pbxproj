@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F68BB6B1E95577100AF291C /* BookViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68BB6A1E95577100AF291C /* BookViewVC.swift */; };
+		8FC077E11E94DC710085E875 /* TableViewSixVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC077E01E94DC710085E875 /* TableViewSixVC.swift */; };
+		8FC077E31E94DCC20085E875 /* SixVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC077E21E94DCC20085E875 /* SixVCCell.swift */; };
+		8FC077E51E94E02D0085E875 /* CustomViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC077E41E94E02D0085E875 /* CustomViewClass.swift */; };
 		8FDAC7A81E9416FF0063FF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAC7A71E9416FF0063FF34 /* AppDelegate.swift */; };
-		8FDAC7AA1E9416FF0063FF34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAC7A91E9416FF0063FF34 /* ViewController.swift */; };
 		8FDAC7AD1E9416FF0063FF34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDAC7AB1E9416FF0063FF34 /* Main.storyboard */; };
 		8FDAC7B01E9416FF0063FF34 /* NCTB_APP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAC7AE1E9416FF0063FF34 /* NCTB_APP.xcdatamodeld */; };
 		8FDAC7B21E9416FF0063FF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDAC7B11E9416FF0063FF34 /* Assets.xcassets */; };
 		8FDAC7B51E9416FF0063FF34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDAC7B31E9416FF0063FF34 /* LaunchScreen.storyboard */; };
 		8FDAC7C01E9417000063FF34 /* NCTB_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAC7BF1E9417000063FF34 /* NCTB_APPTests.swift */; };
 		8FDAC7CB1E9417000063FF34 /* NCTB_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAC7CA1E9417000063FF34 /* NCTB_APPUITests.swift */; };
+		8FDAC7D91E9417400063FF34 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAC7D81E9417400063FF34 /* CollectionVC.swift */; };
+		8FDAC7DB1E941BAF0063FF34 /* CollectionCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAC7DA1E941BAF0063FF34 /* CollectionCellVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F68BB6A1E95577100AF291C /* BookViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewVC.swift; sourceTree = "<group>"; };
+		8FC077E01E94DC710085E875 /* TableViewSixVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSixVC.swift; sourceTree = "<group>"; };
+		8FC077E21E94DCC20085E875 /* SixVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixVCCell.swift; sourceTree = "<group>"; };
+		8FC077E41E94E02D0085E875 /* CustomViewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewClass.swift; sourceTree = "<group>"; };
 		8FDAC7A41E9416FF0063FF34 /* NCTB_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCTB_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDAC7A71E9416FF0063FF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FDAC7A91E9416FF0063FF34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FDAC7AC1E9416FF0063FF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FDAC7AF1E9416FF0063FF34 /* NCTB_APP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NCTB_APP.xcdatamodel; sourceTree = "<group>"; };
 		8FDAC7B11E9416FF0063FF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		8FDAC7C61E9417000063FF34 /* NCTB_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCTB_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDAC7CA1E9417000063FF34 /* NCTB_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCTB_APPUITests.swift; sourceTree = "<group>"; };
 		8FDAC7CC1E9417000063FF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDAC7D81E9417400063FF34 /* CollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		8FDAC7DA1E941BAF0063FF34 /* CollectionCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCellVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				8FDAC7A71E9416FF0063FF34 /* AppDelegate.swift */,
-				8FDAC7A91E9416FF0063FF34 /* ViewController.swift */,
 				8FDAC7AB1E9416FF0063FF34 /* Main.storyboard */,
 				8FDAC7B11E9416FF0063FF34 /* Assets.xcassets */,
 				8FDAC7B31E9416FF0063FF34 /* LaunchScreen.storyboard */,
 				8FDAC7B61E9416FF0063FF34 /* Info.plist */,
 				8FDAC7AE1E9416FF0063FF34 /* NCTB_APP.xcdatamodeld */,
+				8FDAC7D81E9417400063FF34 /* CollectionVC.swift */,
+				8FDAC7DA1E941BAF0063FF34 /* CollectionCellVC.swift */,
+				8FC077E01E94DC710085E875 /* TableViewSixVC.swift */,
+				8FC077E21E94DCC20085E875 /* SixVCCell.swift */,
+				8FC077E41E94E02D0085E875 /* CustomViewClass.swift */,
+				8F68BB6A1E95577100AF291C /* BookViewVC.swift */,
 			);
 			path = NCTB_APP;
 			sourceTree = "<group>";
@@ -262,9 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FDAC7AA1E9416FF0063FF34 /* ViewController.swift in Sources */,
+				8FC077E31E94DCC20085E875 /* SixVCCell.swift in Sources */,
 				8FDAC7B01E9416FF0063FF34 /* NCTB_APP.xcdatamodeld in Sources */,
+				8F68BB6B1E95577100AF291C /* BookViewVC.swift in Sources */,
+				8FDAC7D91E9417400063FF34 /* CollectionVC.swift in Sources */,
+				8FDAC7DB1E941BAF0063FF34 /* CollectionCellVC.swift in Sources */,
+				8FC077E11E94DC710085E875 /* TableViewSixVC.swift in Sources */,
 				8FDAC7A81E9416FF0063FF34 /* AppDelegate.swift in Sources */,
+				8FC077E51E94E02D0085E875 /* CustomViewClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +529,7 @@
 				8FDAC7D11E9417000063FF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FDAC7D21E9417000063FF34 /* Build configuration list for PBXNativeTarget "NCTB_APPTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +538,7 @@
 				8FDAC7D41E9417000063FF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FDAC7D51E9417000063FF34 /* Build configuration list for PBXNativeTarget "NCTB_APPUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +547,7 @@
 				8FDAC7D71E9417000063FF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
