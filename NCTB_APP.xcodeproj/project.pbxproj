@@ -211,6 +211,7 @@
 				TargetAttributes = {
 					8FDAC7A31E9416FF0063FF34 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JQ589AL6ZR;
 						ProvisioningStyle = Automatic;
 					};
 					8FDAC7BA1E9417000063FF34 = {
@@ -436,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JQ589AL6ZR;
 				INFOPLIST_FILE = NCTB_APP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Self.NCTB-APP";
@@ -448,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JQ589AL6ZR;
 				INFOPLIST_FILE = NCTB_APP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Self.NCTB-APP";

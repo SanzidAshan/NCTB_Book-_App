@@ -108,7 +108,7 @@ class CollectionVC: UICollectionViewController ,UICollectionViewDelegateFlowLayo
         
         if indexPath.row == 0 {
             
-            print("Row 1")
+            performSegue(withIdentifier: "Six", sender: TableViewSixVC.self)
         }
         if indexPath.row == 1 {
             

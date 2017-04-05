@@ -53,8 +53,12 @@ class TableViewSixVC: UITableViewController {
         cell.bookName.text = bookName[indexPath.row]
         
 
+        UIView.animate(withDuration: 2 ) {
+            cell.viewCell.alpha = 1
+        }
         
         
+       
         
         return cell
     }
@@ -70,6 +74,8 @@ class TableViewSixVC: UITableViewController {
         passData.getWebViewText = webView[indexPath.row]
         
         self.navigationController?.pushViewController(passData, animated: true)
+        
+        
         
         
         

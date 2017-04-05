@@ -9,11 +9,8 @@
 import UIKit
 
 
-    
-    
-
-
 class BookViewVC: UIViewController {
+    @IBOutlet weak var topConstrains: NSLayoutConstraint!
     
     @IBOutlet weak var webViewLink: UILabel!
 
@@ -39,25 +36,45 @@ class BookViewVC: UIViewController {
 
         webViewBook(name: getWebViewText)
         
+        let itemButton = UIBarButtonItem(image: UIImage(named: "002-arrows"), style: .plain, target: self, action:#selector(DownloadLayout(sender:))) // action:#selector(Class.MethodName) for swift 3
+        self.navigationItem.rightBarButtonItem  = itemButton
         
-//        let url = URL (string: getWebViewText )
-//        let requestObj = URLRequest(url: url!)
-//        webView.loadRequest(requestObj)
+       
+
         
+       
         
 
         // Do any additional setup after loading the view.
     }
     
    
+    func DownloadLayout(sender: UIBarButtonItem) {
+        
+        
+        
+        if topConstrains.constant != 0 {
+            
+            topConstrains.constant = 0
+        }
+        
+        else if topConstrains.constant == 0{
+            
+            topConstrains.constant = -60
+            
+        }
+        
+    }
     
-    
+   
     
    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
 
     /*
