@@ -16,7 +16,7 @@ class TableViewSixVC: UITableViewController {
     var bookName = ["তথ্য ও যোগাযোগ প্রযুক্তি","বাংলা ব্যকরণ ও নির্মিতি ","কৃষি শিক্ষা","আনন্দ পাঠ(বাংলা দ্রুত পঠন)","কর্ম ও জীবনমুকী শিক্ষা"]
     
     
-    var webView = ["https://drive.google.com/file/d/0B8L6VJQZe3EELW9PUm1NN09IM2c/view","https://drive.google.com/file/d/0B8L6VJQZe3EELW9PUm1NN09IM2c/view","https://drive.google.com/file/d/0B8L6VJQZe3EELW9PUm1NN09IM2c/view","https://drive.google.com/file/d/0B8L6VJQZe3EELW9PUm1NN09IM2c/view","https://drive.google.com/file/d/0B8L6VJQZe3EELW9PUm1NN09IM2c/view"]
+    var webView = ["https://drive.google.com/file/d/0B8L6VJQZe3EELW9PUm1NN09IM2c/view","https://drive.google.com/file/d/0B8L6VJQZe3EENkJOd3JZTkctRkE/view","https://drive.google.com/file/d/0B8L6VJQZe3EELW9PUm1NN09IM2c/view","https://drive.google.com/file/d/0B8L6VJQZe3EEOUlUZnJScFgtdUU/view","https://drive.google.com/file/d/0B8L6VJQZe3EEMmFDaWxNQTVscDQ/view"]
 
     override func viewDidLoad() {
         super.viewDidLoad()

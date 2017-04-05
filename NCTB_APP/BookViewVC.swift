@@ -51,18 +51,21 @@ class BookViewVC: UIViewController {
    
     func DownloadLayout(sender: UIBarButtonItem) {
         
+        let url = URL (string: "https://drive.google.com/uc?authuser=0&id=0B8L6VJQZe3EEOUlUZnJScFgtdUU&export=download" )
+        let requestObj = URLRequest(url: url!)
+        webView.loadRequest(requestObj)
+
         
-        
-        if topConstrains.constant != 0 {
-            
-            topConstrains.constant = 0
-        }
-        
-        else if topConstrains.constant == 0{
-            
-            topConstrains.constant = -60
-            
-        }
+//        if topConstrains.constant != 0 {
+//            
+//            topConstrains.constant = 0
+//        }
+//        
+//        else if topConstrains.constant == 0{
+//            
+//            topConstrains.constant = -60
+//            
+//        }
         
     }
     
