@@ -15,7 +15,7 @@
             <objects>
                 <collectionViewController id="cGP-hN-2db" customClass="CollectionVC" customModule="NCTB_APP" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="0sm-Cp-YLz">
-                        <rect key="frame" x="0.0" y="64" width="320" height="603"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="20" id="P7C-Xh-QZh">
@@ -26,7 +26,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="rOH-OX-Ht6" customClass="CollectionCellVC" customModule="NCTB_APP" customModuleProvider="target">
-                                <rect key="frame" x="70" y="0.0" width="180" height="180"/>
+                                <rect key="frame" x="98" y="0.0" width="180" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
@@ -36,13 +36,13 @@
                                             <rect key="frame" x="8" y="14" width="164" height="152"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v52-D8-ATw">
-                                            <rect key="frame" x="28" y="68" width="40" height="22.5"/>
+                                            <rect key="frame" x="28" y="68" width="40" height="23"/>
                                             <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="16"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="সকল বইসমুহ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27h-Ni-JzY">
-                                            <rect key="frame" x="28" y="100.5" width="85.5" height="22.5"/>
+                                            <rect key="frame" x="28" y="101" width="86" height="23"/>
                                             <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="16"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -84,19 +84,19 @@
             <objects>
                 <tableViewController id="pOv-f8-7jz" customClass="TableViewSixVC" customModule="NCTB_APP" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="132" sectionHeaderHeight="28" sectionFooterHeight="28" id="hfr-vB-eoc">
-                        <rect key="frame" x="0.0" y="64" width="320" height="603"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="6cell" rowHeight="132" id="cOI-ey-Zgf" customClass="SixVCCell" customModule="NCTB_APP" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="320" height="132"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="132"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cOI-ey-Zgf" id="SXn-jZ-XBV">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="132"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1PP-10-ugm" customClass="CustomViewClass" customModule="NCTB_APP" customModuleProvider="target">
-                                            <rect key="frame" x="22" y="16" width="276" height="108"/>
+                                            <rect key="frame" x="22" y="16" width="331" height="108"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Board" translatesAutoresizingMaskIntoConstraints="NO" id="cmV-Ev-AUm">
                                                     <rect key="frame" x="6" y="5" width="30" height="33"/>
@@ -192,6 +192,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsc-p5-YDw">
+                                <rect key="frame" x="317" y="56" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -207,6 +214,7 @@
                     <connections>
                         <outlet property="topConstrains" destination="EOx-4z-HD0" id="Yxa-CG-Coj"/>
                         <outlet property="webView" destination="kFt-u4-0Qd" id="R0L-nx-kNk"/>
+                        <outlet property="webViewDownload" destination="hsc-p5-YDw" id="LRK-8K-KyW"/>
                         <outlet property="webViewLink" destination="7e8-LQ-ccY" id="vcm-5i-PCH"/>
                     </connections>
                 </viewController>
@@ -217,11 +225,8 @@
         <!--Navigation Controller-->
         <scene sceneID="Hj4-5s-ibo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nk5-Qs-QLs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Q2J-00-Ryz" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="667"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="OUU-wA-4lC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -233,6 +238,7 @@
                         <segue destination="cGP-hN-2db" kind="relationship" relationship="rootViewController" id="kGF-po-bhf"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nk5-Qs-QLs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="285.60000000000002" y="125.4872563718141"/>
         </scene>

@@ -9,7 +9,10 @@
 import UIKit
 
 
+
+
 class BookViewVC: UIViewController {
+    
     @IBOutlet weak var topConstrains: NSLayoutConstraint!
     
     @IBOutlet weak var webViewLink: UILabel!
@@ -17,11 +20,23 @@ class BookViewVC: UIViewController {
     @IBOutlet weak var webView: UIWebView!
     
     var getWebViewText = String()
+    var getWebDownloadLink = String()
+    
+    
+    @IBOutlet weak var webViewDownload: UILabel!
     
     
     func webViewBook(name : String ){
         
-        let url = URL (string: getWebViewText )
+        let url = URL (string: name )
+        let requestObj = URLRequest(url: url!)
+        webView.loadRequest(requestObj)
+        
+    }
+    
+    func webViewBookDownload(name : String ){
+        
+        let url = URL (string: getWebDownloadLink )
         let requestObj = URLRequest(url: url!)
         webView.loadRequest(requestObj)
         
@@ -32,6 +47,8 @@ class BookViewVC: UIViewController {
         super.viewDidLoad()
         
         webViewLink.text = getWebViewText
+        
+        
         
 
         webViewBook(name: getWebViewText)
@@ -51,9 +68,9 @@ class BookViewVC: UIViewController {
    
     func DownloadLayout(sender: UIBarButtonItem) {
         
-        let url = URL (string: "https://drive.google.com/uc?authuser=0&id=0B8L6VJQZe3EEOUlUZnJScFgtdUU&export=download" )
-        let requestObj = URLRequest(url: url!)
-        webView.loadRequest(requestObj)
+     
+        
+        webViewBookDownload(name: getWebDownloadLink )
 
         
 //        if topConstrains.constant != 0 {
@@ -66,6 +83,7 @@ class BookViewVC: UIViewController {
 //            topConstrains.constant = -60
 //            
 //        }
+        
         
     }
     
