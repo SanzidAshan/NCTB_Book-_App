@@ -18,6 +18,7 @@ class TableViewSixVC: UITableViewController {
     
     var webView = ["https://drive.google.com/file/d/0B8L6VJQZe3EELW9PUm1NN09IM2c/view","https://drive.google.com/file/d/0B8L6VJQZe3EENkJOd3JZTkctRkE/view","https://drive.google.com/file/d/0B8L6VJQZe3EELW9PUm1NN09IM2c/view","https://drive.google.com/file/d/0B8L6VJQZe3EEOUlUZnJScFgtdUU/view","https://drive.google.com/file/d/0B8L6VJQZe3EEMmFDaWxNQTVscDQ/view"]
     
+    
     var webViewDownload = ["https://drive.google.com/uc?id=0B8L6VJQZe3EELW9PUm1NN09IM2c&export=download9212437/01601827246378708633/0B8L6VJQZe3EELW9PUm1NN09IM2c?e=download","https://doc-10-9s-docs.googleusercontent.com/docs/securesc/9bnbgji6d09pc4655019v7npdbl4bkh0/fsb08t6ebojmc7fa4pareushb2vqrel5/1491508800000/11843320276469212437/01601827246378708633/0B8L6VJQZe3EENkJOd3JZTkctRkE?e=download","https://drive.google.com/uc?id=0B8L6VJQZe3EELW9PUm1NN09IM2c&export=download9212437/01601827246378708633/0B8L6VJQZe3EELW9PUm1NN09IM2c?e=download","https://doc-00-10-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/qh057hiq4kjd178lkbu1osc2e6s83b2m/1491508800000/11843320276469212437/*/0B8L6VJQZe3EEOUlUZnJScFgtdUU?e=download","https://doc-10-10-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/oeojtrp68ii9dhhe30aalnpdrbcl44m9/1491508800000/11843320276469212437/*/0B8L6VJQZe3EEMmFDaWxNQTVscDQ?e=download"]
     
 
